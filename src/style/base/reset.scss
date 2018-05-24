@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: $white-light;
+  color: #333;
+  font-family: "Microsoft YaHei", Arial, Helvetica, "WenQuanYi Micro Hei", "tohoma,sans-serif";
+  font-size: 16px;
+  min-width: 1200px;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+ul, ol {
+  list-style-position: inside;
+}
+
+a {
+  color: $black-max;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: $black-bright;
+  }
+}
+textarea{
+  resize:none!important;
+}
